@@ -164,4 +164,12 @@ public class Utente {
 		this.email = email;
 	}
 
+	public List<Agenda> getAgende() {
+		return agende;
+	}
+
+	public void setAgende(List<Agenda> agende) {
+		this.agende = agende;
+	}
+	
 }
